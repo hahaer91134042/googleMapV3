@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="tcnr6.com.m1701.M1701" >
+
+    <WebView
+        android:id="@+id/googlemap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Spinner
+        android:id="@+id/m1701_S001"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:alpha="50"
+        android:background="@drawable/Lime" />
+
+    <TextView
+        android:id="@+id/m1701_T001"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="50"
+        android:background="@drawable/White"
+        android:text="目前位置:"
+        android:textColor="@drawable/Fuchsia" />
+
+    <Button
+        android:id="@+id/m1705_B001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/m1701_S001"
+        android:layout_below="@+id/m1701_S001"
+        android:alpha="50"
+        android:background="@drawable/Blue"
+        android:text="開啟路線規劃" />
+
+</RelativeLayout>
